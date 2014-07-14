@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#coding:utf8
 import gc
 
 from PyQt4 import QtGui, QtCore
@@ -27,6 +27,7 @@ from graphContext import GraphContext
 
 
 class BrowserMatPlotFrame(QtGui.QWidget):
+    "定义画图的页面"
     def __init__(self, parent = None):
         QtGui.QWidget.__init__(self)
         self.parent = parent
